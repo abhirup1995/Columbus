@@ -1,0 +1,23 @@
+{
+  "table": "TPVW_AIAGENT_ExpenditureData",
+  "datasource": "Transparency",
+  "description": "This view contains all the expenditure information needed to answer any expenditure type question.",
+  "columns": [
+    {
+      "name": "_SysRowId",
+      "description": "System row id"
+    },
+    {
+      "name": "TransactionCurrencyAmount",
+      "description": "Transaction amount in currency"
+    },
+    {
+      "name": "AccountingDate",
+      "description": "Accounting date"
+    },
+    {
+      "name": "MAINACCOUNTNAME",
+      "description": "Main account name"
+    }
+  ]
+}

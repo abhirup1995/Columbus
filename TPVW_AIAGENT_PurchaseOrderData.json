@@ -1,0 +1,87 @@
+{
+  "table": "TPVW_AIAGENT_PurchaseOrderData",
+  "datasource": "Transparency",
+  "description": "This view contains all the purchase order information needed to answer any purchase order type question.",
+  "columns": [
+    {
+      "name": "EventType",
+      "description": "Event type code"
+    },
+    {
+      "name": "MonetaryAmount",
+      "description": "Monetary amount code"
+    },
+    {
+      "name": "TYPE",
+      "description": "A type id"
+    },
+    {
+      "name": "SourceDocumentHeader",
+      "description": "Source document header"
+    },
+    {
+      "name": "EventDateTime",
+      "description": "Event date time"
+    },
+    {
+      "name": "TransactionCurrencyAmount",
+      "description": "Transaction amount in currency"
+    },
+    {
+      "name": "LedgerDimension",
+      "description": "Ledger dimension unique id"
+    },
+    {
+      "name": "SourceDocumentLine",
+      "description": "Source document line"
+    },
+    {
+      "name": "AccountingDate",
+      "description": "The accounting date of the transaction"
+    },
+    {
+      "name": "MainAccountId",
+      "description": "Main account id"
+    },
+    {
+      "name": "DEPARTMENTNAME",
+      "description": "Department name"
+    },
+    {
+      "name": "DIVISIONNAME",
+      "description": "Division name"
+    },
+    {
+      "name": "FundName",
+      "description": "Fund name"
+    },
+    {
+      "name": "OBJECTCLASSNAME",
+      "description": "Object class name"
+    },
+    {
+      "name": "PROGRAMNAME",
+      "description": "Program name"
+    },
+    {
+      "name": "PROJECTNAME",
+      "description": "Project name"
+    },
+    {
+      "name": "MainAccountName",
+      "description": "Main account name"
+    },
+    {
+      "name": "PurchQty",
+      "description": "Purchase order quantity"
+    },
+    {
+      "name": "PurchaseOrderLineName",
+      "description": "Purchase order line name"
+    },
+    {
+      "name": "PurchId",
+      "description": "Purchase order id"
+    }
+  ]
+}

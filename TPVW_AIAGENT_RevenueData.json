@@ -1,0 +1,31 @@
+{
+  "table": "TPVW_AIAGENT_RevenueData",
+  "datasource": "Transparency",
+  "description": "This view contains all the revenue information needed to answer any revenue type question.",
+  "columns": [
+    {
+      "name": "RECID",
+      "description": "System row id"
+    },
+    {
+      "name": "TransactionCurrencyAmount",
+      "description": "Transaction amount in currency"
+    },
+    {
+      "name": "TransactionCurrencyCode",
+      "description": "Transaction currency code"
+    },
+    {
+      "name": "LedgerAccount",
+      "description": "Ledger account code"
+    },
+    {
+      "name": "AccountingDate",
+      "description": "Accounting date"
+    },
+    {
+      "name": "MAINACCOUNTNAME",
+      "description": "Main account name"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "table": "Transparency.TPVW_AIAGENT_VendorData",
+  "datasource": "columbus_GPT_RAG_POC",
+  "description": "This view contains all the vendor information needed to answer any vendor type question.",
+  "columns": [
+    {
+      "name": "RECID",
+      "description": "Vendor record id"
+    },
+    {
+      "name": "AccountNum",
+      "description": "Vendor account number"
+    },
+    {
+      "name": "Name",
+      "description": "Vendor name"
+    },
+    {
+      "name": "CountryRegionCode",
+      "description": "Country region code"
+    }
+  ]
+}

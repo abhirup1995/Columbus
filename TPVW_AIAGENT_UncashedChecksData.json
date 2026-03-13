@@ -1,0 +1,23 @@
+{
+  "table": "TPVW_AIAGENT_UncashedChecksData",
+  "datasource": "Transparency",
+  "description": "This view contains all the uncashed checks information needed to answer any uncashed checks type question.",
+  "columns": [
+    {
+      "name": "RECID",
+      "description": "Record id"
+    },
+    {
+      "name": "ChequeNum",
+      "description": "Check number"
+    },
+    {
+      "name": "AmountCur",
+      "description": "Check amount"
+    },
+    {
+      "name": "PayeeName",
+      "description": "Payee name"
+    }
+  ]
+}
